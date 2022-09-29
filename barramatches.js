@@ -1,5 +1,5 @@
 let id =1
-const yourUrl =('http://localhost:3001/matches/'+id)
+const yourUrl =('http://localhost:3001/api/matches/'+id)
 async function fetchByIdJSON() {
     const response = await fetch(yourUrl,{
     method: 'GET',
